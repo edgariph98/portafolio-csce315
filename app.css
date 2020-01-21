@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lora|Oswald|Permanent+Marker|Prompt|Righteous&display=swap');
+/*Navigation Tab*/
+#navTopBar{
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    height: 50  px;
+    width:100%;
+    background-color: #4862b9;
+    transition: top 0.2s;
+}
+#navTopBar a {
+    height: 100%;
+    color: #d2fdff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: block;
+    float: right;
+    padding:10px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navTopBar a:hover { 
+    background-color: aliceblue;
+    color: #000000e7;
+}
+#navTopBar #home{
+    float: left;
+}
+/*About me*/
+#ABMe {
+    margin: 0;
+    display: flex;
+    justify-content: center;    
+    height:94vh;
+    width: 100%;
+    background-image: url("images/coding.jpg");
+    background-size: cover;
+}
+#myPicture {
+    position: relative;
+    top: 10%;
+    border-radius: 50%;
+    border-style: double;
+    border-color: #4862b9;
+    max-width: 50vw;
+    max-height: 50vh;
+}
+#description {
+    background-color: #5067afc4;
+    border-radius: 45px;
+    text-align: center;
+    max-height: 50%;
+    max-width: 50%;
+    border-style: solid;
+    color: #f7f9ff;
+    position: relative;
+    top: 7%;
+    font-family: 'Lora', serif;
+    font-size: 28px;    
+}
+#viewMyInfo{
+    background-color: #4862b9;
+    justify-content: center;
+    height: 5vh;
+    display: flex;
+    width: 100%;
+}
+#viewMyInfo a {
+    color: #d2fdff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    height: 100%;
+    width: 50%;
+}
+#viewMyInfo a:hover {
+    background-color: aliceblue;
+    color: #000000e7;
+}
+/*Projects Div*/
+#Projects {
+    left: 25%;
+    display: flex;
+    background-color: #647ac4;
+    width: 100%;
+    height: 100vh;
+    flex-flow: column;
+}
+
+#Projects div {
+    justify-content: space-evenly;
+    position: relative;
+    top:3%;
+    display: flex;
+    height:42.5vh;
+    width:100%;
+}
+#Projects div a {
+    /*background-image: url("images/fosterProduct.jpg");*/  
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    height:90%;
+    width:40%;
+    border-style: solid;
+}
+#Projects div a:hover{
+    color:white;
+    background-color: #7990dbb9;
+}
+#Projects h1 {
+    color: aliceblue;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding:0;
+}
