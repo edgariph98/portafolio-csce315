@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lora|Oswald|Permanent+Marker|Prompt|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+/*Navigation Tab*/
+#navTopBar{
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    height: 50  px;
+    width:100%;
+    background-color: #4862b9;
+    transition: top 0.2s;
+}
+#navTopBar a {
+    height: 100%;
+    color: #d2fdff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: block;
+    float: right;
+    padding:10px 14px;
+    text-decoration: none;
+    font-size: 1.4vw;
+    border-radius: 10px;
+}
+#navTopBar a:hover { 
+    background-color: aliceblue;
+    color: #000000e7;
+}
+#navTopBar #home{
+    float: left;
+}
+#myicons {
+    background-color: #ffffffd7;
+    border-radius: 60px;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    width: 30vw;
+    height: 15vh;
+}
+
+.icons {
+    font-size: 0em;
+    width: 10vw;
+}
+h1 {
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    height: 10vh;
+    background-color: #4862b9e7;
+    text-align: center;
+    font-size: 2.2vw;
+    color: aliceblue;  
+    border-radius: 30px; border-style: solid;
+
+}
+#git {
+    background-image: url(../images/gitHub.png);
+    background-size: 100% 100%;
+}
+#gmail {
+    background-image: url(../images/gmail.png);
+    background-size: 100% 100%;
+}
+#linkedin {
+    background-image: url(../images/linkedIn.png);
+    background-size: 100% 100%;
+    border-radius: 90px;
+}
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding:0;
+    background-size: cover;
+    background-attachment: fixed;;
+    background-image: url(../images/coding.jpg);
+}     
