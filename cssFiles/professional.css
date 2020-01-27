@@ -35,7 +35,7 @@
     border-style: solid;
     display: flex;
     position: absolute;
-    top: 15.5%;
+    top: 14.5%;
     left:5%;
     height: 80vh;
     width: 40vw;
@@ -44,11 +44,11 @@
 #myContribution {
     position: absolute;
     color: white;
-    top: 12%;
+    top: 13%;
     left: 50%;
     width: 45vw;
     height: 80vh;
-    font-size:  2vw;
+    font-size:  1.05vw;
     background-color: #4862b9ab;
     border-radius: 10px;
     border-style: solid;
@@ -59,24 +59,90 @@ p {
     font-family: 'Righteous', cursive;
     background-color: #4862b9ab;
     border-radius: 10px;
+    border-style: solid ;
+}
+.headers{
+    position: absolute;
+    font-size: 2.3vw;
+    color: aliceblue;
+    font-family: 'Righteous', cursive;
+    background-color: #4862b9ab;
+    border-radius: 10px;
     top: 3%;
     border-style: solid ;
 }
-#hresume {
-    display: flex;
+#languages {
     position: absolute;
+    top: 120%;
+    left: 25%;
+}
+
+.logos-list {
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 20px;
+
+    list-style-type: none;
+}
+.logos-list li img{
+    height: 10vh;
+    width: 6vw;
+    border-radius: 100px;
+}
+#hresume {
     left:20%;
 }
 #hinterests {
-    position: absolute;
     left: 60%;
+}
+#mySkills{
+    position: absolute;
+    left:35%;
+    top:100%;
+}
+.skills{
+    text-align: center;
+    font-size: 1.5vw;
+    width: 25%;
+    top:110%;
+}
+#Languages {
+    left: 18%;
+}
+
+#tech {
+    left:55%;
+}
+#skillsBtn {
+    position: absolute;
+    color: #d2fdff;
+    font-family: 'Poppins', sans-serif;
+    height: 6vh;
+    width: 10vw;
+    text-align: center;
+    display: block;
+    float: right;
+    text-decoration: none;
+    font-size: 1.4vw;
+    border-radius: 10px;
+    background-color: #4862b9;
+    top:7%;
+    left: 42%;
+}
+#techs {
+    position: absolute;
+    top: 120%;
+    left: 63%;
+}
+#skillsBtn:hover { 
+    background-color: aliceblue;
+    color: #4862b9;
 }
 
 body {
     scroll-behavior: smooth;
     margin: 0;
     padding:0;
-    background-size: cover;
-    background-attachment: fixed;;
+    background-size: 110w 110vh;
     background-image: url(../images/coding.jpg);
 }   
