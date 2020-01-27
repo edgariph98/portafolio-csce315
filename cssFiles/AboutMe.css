@@ -43,7 +43,7 @@
 #myPicture {
     position: relative;
     top: 15%;
-    border-radius: 50%;
+    border-radius: 40%;
     border-style: double;
     border-color: #4862b9;
     max-width: 55vw;
